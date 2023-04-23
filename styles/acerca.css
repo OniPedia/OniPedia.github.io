@@ -1,0 +1,79 @@
+.onipedia {
+    color: #2b2eff;
+    position: absolute; top: 70px; left: 400px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 20px rgb(38, 0, 255);
+  }
+
+  .acerca1 {
+    color: #ffffff;
+    position: absolute; top: 200px; left: 50px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .imageanim {
+    animation-name: bailar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes bailar {
+    0% {
+        transform: translate(0, 0) rotate(0);
+    }
+    25% {
+        transform: translate(580%, 0%) rotate(45deg);
+    }
+    50% {
+        transform: translate(0, 0%) rotate(90deg);
+    }
+    75% {
+        transform: translate(-20%, 50%) rotate(45deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(0);
+    }
+}
+
+.oni {
+    color: #2b2eff;
+    position: absolute; top: 500px; left: 400px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 20px rgb(38, 0, 255);
+  }
+
+  .acerca2 {
+    color: #ffffff;
+    position: absolute; top: 650px; left: 50px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+   
+  .imageanim2 {
+    animation-name: saltar;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+  }
+
+  @keyframes saltar {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-200px);
+    }
+    80% {
+        transform: translateY(0);
+    }
+    90% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

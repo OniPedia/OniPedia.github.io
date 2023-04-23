@@ -1,0 +1,44 @@
+.welcome {
+    color: #ff00ea;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 20px rgb(255, 93, 220);
+}
+
+.aviso {
+    color: #ff00ea;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 20px rgb(255, 93, 220);
+}
+
+.titulo {
+    color: #0044ff;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 20px rgb(0, 68, 255);
+}
+
+.anim1 {
+    position: relative;
+    animation: flotar 10s ease-in-out infinite;
+  }
+  
+  @keyframes flotar {
+    0% {
+      transform: translate(-20, 0);
+    }
+    20% {
+      transform: translate(20px, 20px);
+    }
+    50% {
+        transform: translate(-20px, 0px);
+      }
+      70% {
+        transform: translate(0px, -20px);
+      }
+    100% {
+      transform: translate(-20, 0);
+    }
+  }
+  
